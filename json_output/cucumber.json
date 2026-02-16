@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2026-02-13T10:05:34.020Z",
+        "line": 3,
+        "name": "EndToEnd Testing Swag Labs Functionalities",
+        "description": "",
+        "id": "checking-login-\u0026-logout-functionalities-of-swag-labs;endtoend-testing-swag-labs-functionalities",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4264236600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should open Chrome browser",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.user_should_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: Step [User should Enter the URL in Browser] is defined with 1 parameters at \u0027StepDefination.TestCaseDesignSteps.user_should_enter_url_in_search_box(java.lang.String)\u0027.\nHowever, the gherkin step has 0 arguments.\nStep text: User should Enter the URL in Browser\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)\r\n",
+              "duration": 2010800,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User should Enter the URL in Browser",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.user_should_enter_url_in_search_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2033100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should Navigate Home pages",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.user_should_navigate_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2016300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User should Enter the username and password in edit box.",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.user_should_enter_the_username_and_password_in_edit_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on Login PushButton",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.user_should_click_on_login_push_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2014400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Message displayed Swag Labs successfully",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.message_displayed_swag_labs_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2011900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Place handover on Sauce Labs backpack item and click",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.place_handover_on_sauce_labs_backpack_item_and_click()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5051200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Click on add to cart PushButton",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.click_on_add_to_cart_push_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Click on continue Shopping PushButton",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.click_on_continue_shopping_push_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User should Place handover on Sauce Labs bike Light item",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.user_should_place_handover_on_sauce_labs_bike_light_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1022400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click on Add To Cart PushButton",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.click_on_add_to_cart_push_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Click on Checkout",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.user_should_click_on_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User should Quit Swag Labs Application",
+            "match": {
+              "location": "StepDefination.TestCaseDesignSteps.user_should_quit_swag_labs_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking Login \u0026 Logout Functionalities of Swag Labs",
+    "description": "",
+    "id": "checking-login-\u0026-logout-functionalities-of-swag-labs",
+    "keyword": "Feature",
+    "uri": "file:Features/EndToEndTesting.feature",
+    "tags": []
+  }
+]

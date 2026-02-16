@@ -1,19 +1,17 @@
-Feature: Checking Login & Logout Functionalities of Swag Labs
+Feature:  Checking Login & Logout Functionalities of Swag Labs
 
-Scenario: EndToEnd Tetsing Swag Labs Functionalities
-
-Given User Should open Chrome Browser
-When User Should Enter URL "https://www.saucedemo.com/" in Search Box
-And User Shloud click on Search PushButton
-When User Should navigate to Home Page
-And User Should Enter username and password in Edit box
-And User Should Click on Login PushButton
-Then Message displayed Swag Labs Successfully
-Then User Should Place hand over on Sauce Labs Backpack item and Click
-Then User Should Click on Add to Cart PushButton
-Then User Should Click on Continue Shoping PushButton
-And User should place hadn over on Sauce Labs Bike Light item
-And User Should Click on Add to Cart PushButton
-And User Should Click on checkout
-Then User Should Quit Swag Labs Application
+Scenario: EndToEnd Testing Swag Labs Functionalities
  
+Given User should open Chrome browser
+When User should Enter the URL in Browser
+When User should Navigate Home pages
+And User should Enter the username and password in edit box.
+And Click on Login PushButton
+Then Message displayed Swag Labs successfully
+Then Place handover on Sauce Labs backpack item and click
+Then Click on add to cart PushButton
+Then Click on continue Shopping PushButton
+And User should Place handover on Sauce Labs bike Light item
+And Click on Add To Cart PushButton
+And Click on Checkout
+Then User should Quit Swag Labs Application
